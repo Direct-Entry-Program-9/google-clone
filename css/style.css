@@ -107,7 +107,7 @@ main{
     display: flex;
     height: calc(100vh - 560px);
     align-items: flex-end;
-    min-height: 150px;
+    min-height: 92px;
     max-height: 290px;
 }
 
@@ -139,6 +139,7 @@ main{
     width: 100%;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
+    margin-top: 6px;
     padding: 0 8px 0 14px;
     display: flex;
 }
@@ -188,7 +189,10 @@ main{
 }
 
 #sec-lang{
+    margin-top: -8px;
     font-size: 13px;
+    color: #4d5156;
+    line-height: 28px;
 }
 
 #sec-lang a{
