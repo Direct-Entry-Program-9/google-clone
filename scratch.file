@@ -1,3 +1,5 @@
+temp3 should be a ul
+
 for(let elm of temp3.querySelectorAll('li')){
     const text = elm.querySelector('a>span').innerText;
     const href = elm.querySelector('a').href;
